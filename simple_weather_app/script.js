@@ -109,7 +109,7 @@ async function getSports(City = 'Khulna', Lang = 'bn')
 getWeatherData()
 getSports()
 
-document.getElementById('FormBtn').addEventListener('click', function(){
+document.getElementById('FormBtn').addEventListener('click', ()=>{
     let City = document.getElementById('InputCity').value
     getWeatherData(City)
     getSports(City)
