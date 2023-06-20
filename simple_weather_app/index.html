@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Weather App</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
         img{
             height:40px;
@@ -20,23 +21,26 @@
         </div>
       </nav>
       <div class="container-fluid">
-        <!-- <div class="row mb-3">
+        <div class="row mb-3">
             <div class="col-md-4 offset-md-4">
                <div class="card">
                 <div class="card-header">বর্তমান শহর</div>
                 <div class="card-body">
                     <form action="" class="form form-horizontal">
                         <div class="row ">
-                            <label for="City" class="col-form-label col-md-4">Select City</label>
-                            <div class="col-md-8">
-                                <input type="text" class="form-control" name="City" value="Khulna">
+                            <label for="City" class="col-form-label col-md-3">Select City</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="InputCity" name="City">
+                            </div>
+                            <div class="col-md-2">
+                                <input type="button" name="submit" value="Get Data" id="FormBtn" class="btn btn-primary">
                             </div>
                         </div>
                     </form>
                 </div>
                </div>
             </div>
-        </div> -->
+        </div>
 
         <div class="row mb-3">
             <div class="col-8">

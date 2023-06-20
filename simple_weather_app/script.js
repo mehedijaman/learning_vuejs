@@ -1,7 +1,7 @@
 const BaseURL = "http://api.weatherapi.com/v1/"
 const API_Key = '5ad3c720a98944c18cb41011232006'
 
-async function getWeatherData(City, Lang)
+async function getWeatherData(City = 'Khulna', Lang = 'bn')
 {            
     const CurrentURL = BaseURL + 'forecast.json?q='+City+'&lang='+Lang+'&key='+API_Key
 
@@ -9,7 +9,7 @@ async function getWeatherData(City, Lang)
     // console.log(response.data)
 
     if(response.status != 200){
-        console.log('Error from the server');
+        Swal.fire('Something went wrong!')
     }
     else{
         document.getElementById('city').innerHTML = response.data.location.name
@@ -76,7 +76,7 @@ async function getWeatherData(City, Lang)
     }            
 }
 
-async function getSports(City, Lang)
+async function getSports(City = 'Khulna', Lang = 'bn')
 {            
     const CurrentURL = BaseURL + 'sports.json?q='+City+'&lang='+Lang+'&key='+API_Key
 
@@ -106,10 +106,11 @@ async function getSports(City, Lang)
         
     }            
 }
+getWeatherData()
+getSports()
 
-
-
-
-
-getWeatherData('Khulna','bn')
-getSports('Khulna','bn')
+document.getElementById('FormBtn').addEventListener('click', function(){
+    let City = document.getElementById('InputCity').value
+    getWeatherData(City)
+    getSports(City)
+})
