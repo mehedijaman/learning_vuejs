@@ -64,7 +64,7 @@ async function getWeatherData(City = 'Khulna', Lang = 'bn')
         // {
         //     console.log(Data.condition['text'])
         // }
-        let Array = response.data.forecast.forecastday[0].hour
+        let Array = response.data.forecast.forecastday[0].hour.reverse()
         // console.log(Forecast)
         for(Key in Array)
         {
