@@ -13,7 +13,7 @@ const destructureExample = function(object, array){
     return {name:age}
 }
 
-destructureExample(object,array)
+console.log(destructureExample(object,array))
 
 
 /*   
@@ -27,10 +27,10 @@ const sumNumbers = function(...numbers){
         return acc + val
     }, 0)
 
-    console.log(sum)
+    return sum;
 }
 
-sumNumbers(1,2,4)
+console.log(sumNumbers(1,2,4))
 
 /*   
     Exercise 3 
@@ -39,11 +39,10 @@ sumNumbers(1,2,4)
 */
 
 const createGreeting = function(name){
-    const greetings =  `\"Hello, ${name}! Welcome to our website\"`;
-    console.log(greetings)
+    return `\"Hello, ${name}! Welcome to our website\"`;   
 }
 
-createGreeting("Mehedi Jaman")
+console.log(createGreeting("Mehedi Jaman"))
 
 /*   
     Exercise 4 
@@ -52,11 +51,10 @@ createGreeting("Mehedi Jaman")
 */
 
 const isEven = function(number){
-    const result = number%2 == 0?"Even":"Odd"
-    console.log(result)
+    return number%2 == 0?"Even":"Odd"
 }
 
-isEven(7)
+console.log(isEven(7))
 
 /*   
     Exercise 5 
@@ -77,11 +75,10 @@ const multiply = (a,b) => a+b
 */
 
 const getLargestNumber = function(n1, n2){
-    const largest = n1 > n2 ? n1 : n2
-    console.log(largest)
+    return n1 > n2 ? n1 : n2
 }
 
-getLargestNumber(50,9)
+console.log(getLargestNumber(50,9))
 
 /*   
     Exercise 7 
@@ -90,12 +87,11 @@ getLargestNumber(50,9)
 */
 
 const getAddressCity = function(address){
-    const output = address?.city ?? "Unknown"
-    console.log(output)
+    return address?.city ?? "Unknown"
 }
 
 const address = {street:'123 Main St', country:'USA'}
-getAddressCity(address)
+console.log(getAddressCity(address))
 
 /*   
     Exercise 8
