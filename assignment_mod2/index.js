@@ -140,7 +140,11 @@ console.log(sumArray([1, 2, 3, 4, 5]))
 */
 
 const sortNumbers = function(numbers){
-    return numbers.sort()
+    const newArray = [...numbers]
+    return newArray.sort()
 }
 
-console.log(sortNumbers([5, 2, 8, 1, 4]))
+const arr = [5, 2, 8, 1, 4]
+
+console.log(sortNumbers(arr))
+console.log(arr)
