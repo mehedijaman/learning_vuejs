@@ -75,10 +75,11 @@ const multiply = (a,b) => a+b
 */
 
 const getLargestNumber = function(n1, n2){
-    return n1 > n2 ? n1 : n2
+    // return n1 > n2 ? n1 : n2
+    return (n1>n2 && n1) || (n2 > n1 && n2) || (n1 == n2 && 'Equal')
 }
 
-console.log(getLargestNumber(50,9))
+console.log(getLargestNumber(50,50))
 
 /*   
     Exercise 7 
