@@ -1,5 +1,12 @@
 <script setup>
 const appName = 'Appland'
+const image = {
+    url:'assets/img/logo.png',
+    alt:'Logo'
+}
+const link = {
+    href:'http://www.example.com'
+}
 </script>
 
 <template>
@@ -8,9 +15,9 @@ const appName = 'Appland'
         <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-            <h1><a href="index.html">{{ appName }}</a></h1>
+            <h1><a :href="link.href">{{ appName }}</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <a :href="link.href"><img :src="image.url" :alt="image.alt" class="img-fluid"></a>
         </div>
 
         <nav id="navbar" class="navbar">

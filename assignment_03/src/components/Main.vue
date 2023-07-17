@@ -48,7 +48,7 @@
                     </div>
                     </div>
                     <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                    <img src="/src/assets/img/features.svg" class="img-fluid" alt="">
+                    <img src="/img/features.svg" class="img-fluid" alt="">
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@
 
         <div class="row content">
             <div class="col-md-4" data-aos="fade-right">
-            <img src="/src/assets/img/details-1.png" class="img-fluid" alt="">
+            <img src="/img/details-1.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-8 pt-4" data-aos="fade-up">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -83,7 +83,7 @@
 
         <div class="row content">
             <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="/src/assets/img/details-2.png" class="img-fluid" alt="">
+            <img src="/img/details-2.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>Corporis temporibus maiores provident</h3>
@@ -104,7 +104,7 @@
 
         <div class="row content">
             <div class="col-md-4" data-aos="fade-right">
-            <img src="/src/assets/img/details-3.png" class="img-fluid" alt="">
+            <img src="/img/details-3.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-8 pt-5" data-aos="fade-up">
             <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
@@ -125,7 +125,7 @@
 
         <div class="row content">
             <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="/src/assets/img/details-4.png" class="img-fluid" alt="">
+            <img src="/img/details-4.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
@@ -161,18 +161,18 @@
             <div class="container-fluid" data-aos="fade-up">
                 <div class="gallery-slider swiper">
                     <div class="swiper-wrapper">
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-1.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="src/assets/img/gallery/gallery-1.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-2.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="src/assets/img/gallery/gallery-2.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-3.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="src/assets/img/gallery/gallery-3.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-4.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-4.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-5.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-5.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-6.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-6.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-7.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-7.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-8.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-8.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-9.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-9.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-10.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-10.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-11.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-11.png" class="img-fluid" alt=""></a></div>
-                    <div class="swiper-slide"><a href="/src/assets/img/gallery/gallery-12.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/src/assets/img/gallery/gallery-12.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-1.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-1.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-2.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-2.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-3.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-3.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-4.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-4.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-5.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-5.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-6.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-6.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-7.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-7.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-8.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-8.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-9.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-9.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-10.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-10.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-11.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-11.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide"><a href="/img/gallery/gallery-12.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="/img/gallery/gallery-12.png" class="img-fluid" alt=""></a></div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -193,7 +193,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                    <img src="/src/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                     <h3>Saul Goodman</h3>
                     <h4>Ceo &amp; Founder</h4>
                     <p>
@@ -206,7 +206,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                    <img src="/src/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                    <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                     <h3>Sara Wilsson</h3>
                     <h4>Designer</h4>
                     <p>
@@ -219,7 +219,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                    <img src="/src/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                    <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                     <h3>Jena Karlis</h3>
                     <h4>Store Owner</h4>
                     <p>
@@ -232,7 +232,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                    <img src="/src/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                    <img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                     <h3>Matt Brandon</h3>
                     <h4>Freelancer</h4>
                     <p>
@@ -245,7 +245,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                    <img src="/src/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                    <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                     <h3>John Larson</h3>
                     <h4>Entrepreneur</h4>
                     <p>
