@@ -1,20 +1,5 @@
 <script setup>
-const hero = {
-    title:'App Landing page template',
-    slogan:'Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait',
-    stores:[
-        {
-            name:'Google Play',
-            icon_class:'bx bxl-play-store',
-            link:'#'
-        },
-        {
-            name:'App Store',
-            icon_class:'bx bxl-apple',
-            link:'#'
-        }
-    ]
-}
+    import {hero} from '../../public/js/data'
 </script>
 
 <template>

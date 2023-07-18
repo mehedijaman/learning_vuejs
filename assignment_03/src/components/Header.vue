@@ -1,24 +1,5 @@
 <script setup>
-const logo = {
-    a: {
-        href: 'http://www.example.com',
-        appName: 'AppLand'
-    },
-    img: {
-        src: 'imageurl.com',
-        alt: 'Logo Image',
-    }
-}
-
-const menus = [
-    { name:'Home',link:'#hero', status:'active'},
-    { name:'App Featurees',link:'#features'},
-    { name:'Gallery',link:'#gallery'},
-    { name:'Pricing',link:'#pricing'},
-    { name:'F.A.Q',link:'#faq'},
-    { name:'Contact',link:'#contact'},
-]
-
+import {logo} from '../../public/js/data'
 </script>
 
 <template>
