@@ -1,12 +1,25 @@
 <script setup>
-const appName = 'Appland'
-const image = {
-    url:'assets/img/logo.png',
-    alt:'Logo'
+const logo = {
+    a: {
+        href: 'http://www.example.com',
+        appName: 'AppLand'
+    },
+    img: {
+        src: 'imageurl.com',
+        alt: 'Logo Image',
+    }
 }
-const link = {
-    href:'http://www.example.com'
-}
+
+const menus = [
+    { name:'Home',link:'#hero', status:'active'},
+    { name:'App Featurees',link:'#features'},
+    { name:'Gallery',link:'#gallery'},
+    { name:'Pricing',link:'#pricing'},
+    { name:'F.A.Q',link:'#faq'},
+    { name:'F.A.Q',link:'#faq'},
+    { name:'Contact',link:'#contact'},
+]
+
 </script>
 
 <template>
@@ -15,41 +28,17 @@ const link = {
         <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-            <h1><a :href="link.href">{{ appName }}</a></h1>
+            <h1><a :href="logo.a.href">{{ logo.a.appName }}</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a :href="link.href"><img :src="image.url" :alt="image.alt" class="img-fluid"></a>
+            <!-- <a :href="logo.a.href"><img :src="logo.img.src" :alt="logo.img.alt" class="img-fluid"></a> -->
         </div>
 
         <nav id="navbar" class="navbar">
             <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#features">App Features</a></li>
-            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-            <li><a class="nav-link scrollto" href="#faq">F.A.Q</a></li>
-            <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                    <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            <li><a class="getstarted scrollto" href="#features">Get Started</a></li>
+                <li v-for="menu, index in menus" :key="index"><a class="nav-link scrollto" :class="'active' == menu.status?active:''" :href="menu.link">{{ menu.name }}</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
-
         </div>
     </header><!-- End Header -->
 </template>
