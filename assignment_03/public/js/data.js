@@ -146,4 +146,3 @@ const menus = [
 ]
 
 export {hero,logo, menus, faqs, features, pricing_plans, contact}
-// export {menus};
