@@ -1,27 +1,111 @@
 <script setup>
 const faqs = [
     {
+        id:1,
         question:'Non consectetur a erat nam at lectus urna duis?',
         answer:'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
     },
     {
+        id:2,
         question:'Non consectetur a erat nam at lectus urna duis?',
         answer:'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
     },
     {
+        id:3,
         question:'Non consectetur a erat nam at lectus urna duis?',
         answer:'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
     },
     {
+        id:4,
         question:'Non consectetur a erat nam at lectus urna duis?',
         answer:'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
     },
     {
+        id:5,
         question:'Non consectetur a erat nam at lectus urna duis?',
         answer:'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
     }
    
 ]
+
+const features = {
+    description:'Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.',
+    list:[
+        {
+            title:'Corporis voluptates sit',
+            description:'Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip',
+            icon_class:'bx bx-receipt',
+        },
+        {
+            title:'Ullamco laboris nisi',
+            description:'Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip',
+            icon_class:'bx bx-cube-alt',
+        },
+        {
+            title:'Labore consequaturt',
+            description:'Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip',
+            icon_class:'bx bx-images',
+        },
+        {
+            title:'Beatae veritatis',
+            description:'Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip',
+            icon_class:'bx bx-shield',
+        },
+        {
+            title:'Molestiae dolor',
+            description:'Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip',
+            icon_class:'bx bx-atom',
+        },
+        {
+            title:'Explicabo consectetur',
+            description:'Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip',
+            icon_class:'bx bx-card',
+        }
+    ]
+}
+
+const pricing_plans = [
+    {
+        name:'Free',
+        price:'$0',
+        features:[
+            'Quam adipiscing vitae proin',
+            'Nec feugiat nisl pretium',
+            'Nulla at volutpat diam uteera',
+            'Nulla at volutpat diam uteera',
+        ],
+        link:'#'
+    },
+    {
+        name:'Business',
+        price:'$29',
+        features:[
+            'Quam adipiscing vitae proin',
+            'Nec feugiat nisl pretium',
+            'Nulla at volutpat diam uteera',
+            'Massa ultricies mi quis hendrerit'
+        ],
+        link:'#'
+    },
+    {
+        name:'Developer',
+        price:'$49',
+        features:[
+            'Quam adipiscing vitae proin',
+            'Nec feugiat nisl pretium',
+            'Nulla at volutpat diam uteera',
+            'Massa ultricies mi quis hendrerit'
+        ],
+        link:'#'
+    },
+]
+
+const contact = {
+    address:'A108 Adam Street, New York, NY 535022',
+    phone:'+1 5589 55488 55, +1 5589 22548 64',
+    email:'contact@example.com info@example.com',
+    working_hours:'Mon - Fri: 9AM to 5PM Sunday: 9AM to 1PM'
+}
 </script>
 <template>
     <main id="main">
@@ -31,43 +115,18 @@ const faqs = [
 
                 <div class="section-title">
                     <h2>App Features</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>{{ features.description }}</p>
                 </div>
 
                 <div class="row no-gutters">
                     <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
                     <div class="content d-flex flex-column justify-content-center">
                         <div class="row">
-                        <div class="col-md-6 icon-box" data-aos="fade-up">
-                            <i class="bx bx-receipt"></i>
-                            <h4>Corporis voluptates sit</h4>
-                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-cube-alt"></i>
-                            <h4>Ullamco laboris nisi</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-images"></i>
-                            <h4>Labore consequatur</h4>
-                            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-shield"></i>
-                            <h4>Beatae veritatis</h4>
-                            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-atom"></i>
-                            <h4>Molestiae dolor</h4>
-                            <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
-                        </div>
-                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                            <i class="bx bx-id-card"></i>
-                            <h4>Explicabo consectetur</h4>
-                            <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
-                        </div>
+                            <div class="col-md-6 icon-box" data-aos="fade-up" v-for="(feature,index) in features.list" :key="index">
+                                <i :class="feature.icon_class"></i>
+                                <h4>{{ feature.title }}</h4>
+                                <p>{{ feature.description }}</p>
+                            </div>
                         </div>
                     </div>
                     </div>
@@ -298,44 +357,15 @@ const faqs = [
 
         <div class="row no-gutters">
 
-            <div class="col-lg-4 box" data-aos="fade-right">
-            <h3>Free</h3>
-            <h4>$0<span>per month</span></h4>
-            <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <div class="col-lg-4 box" data-aos="fade-right" v-for="(plan, index) in pricing_plans" :key="index">
+                <h3>{{ plan.name }}</h3>
+                <h4>{{ plan.price }}<span>per month</span></h4>
+                <ul>
+                    <li v-for="(feature,index) in plan.features" :key="index"><i class="bx bx-check"></i> {{ feature }}</li>                   
+                </ul>
+                <a :href="plan.link" class="get-started-btn">Get Started</a>
             </div>
-
-            <div class="col-lg-4 box featured" data-aos="fade-up">
-            <h3>Business</h3>
-            <h4>$29<span>per month</span></h4>
-            <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-            </div>
-
-            <div class="col-lg-4 box" data-aos="fade-left">
-            <h3>Developer</h3>
-            <h4>$49<span>per month</span></h4>
-            <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-            </div>
+          
 
         </div>
 
@@ -354,9 +384,9 @@ const faqs = [
 
         <div class="accordion-list">
             <ul>
-            <li data-aos="fade-up" v-for="(faq, index) in faqs" :key="index">
-                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">{{ faq.question }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                    <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+            <li data-aos="fade-up" v-for="faq in faqs" :key="faq.id">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" :data-bs-target="'#accordion-list-'+faq.id">{{ faq.question }} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div :id="'accordion-list-' + faq.id" class="collapse show" data-bs-parent=".accordion-list">
                     <p>{{ faq.answer }}</p>
                     </div>
                 </li>
@@ -401,22 +431,22 @@ const faqs = [
                 <div class="col-lg-6 info">
                 <i class="bx bx-map"></i>
                 <h4>Address</h4>
-                <p>A108 Adam Street,<br>New York, NY 535022</p>
+                <p>{{ contact.address }}</p>
                 </div>
                 <div class="col-lg-6 info">
                 <i class="bx bx-phone"></i>
                 <h4>Call Us</h4>
-                <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                <p>{{ contact.phone }} </p>
                 </div>
                 <div class="col-lg-6 info">
                 <i class="bx bx-envelope"></i>
                 <h4>Email Us</h4>
-                <p>contact@example.com<br>info@example.com</p>
+                <p>{{ contact.phone}}</p>
                 </div>
                 <div class="col-lg-6 info">
                 <i class="bx bx-time-five"></i>
                 <h4>Working Hours</h4>
-                <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                <p>{{ contact.working_hours }}</p>
                 </div>
             </div>
             </div>

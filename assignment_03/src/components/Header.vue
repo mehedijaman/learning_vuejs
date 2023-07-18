@@ -16,7 +16,6 @@ const menus = [
     { name:'Gallery',link:'#gallery'},
     { name:'Pricing',link:'#pricing'},
     { name:'F.A.Q',link:'#faq'},
-    { name:'F.A.Q',link:'#faq'},
     { name:'Contact',link:'#contact'},
 ]
 
