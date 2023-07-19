@@ -30,6 +30,11 @@ const faqs = [
 ]
 
 const features = {
+    image:{
+        src:'/img/features.svg',
+        class:'img-fluid',
+        alt:'Feature Image'
+    },
     description:'Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.',
     list:[
         {
@@ -63,6 +68,23 @@ const features = {
             icon_class:'bx bx-card',
         }
     ]
+}
+
+const details = {
+    title:'Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.',
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    image:{
+        src:'/img/details-1.png',
+        class:'img-fluid',
+        alt:'Details Photo'
+    },
+    lists:[
+        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Duis aute irure dolor in reprehenderit in voluptate velit.',
+        'Iure at voluptas aspernatur dignissimos doloribus repudiandae.',
+        'Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.'
+    ],
+    footer:'Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia'
 }
 
 const pricing_plans = [
@@ -111,6 +133,11 @@ const contact = {
 const hero = {
     title:'App Landing page template',
     slogan:'Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait',
+    image:{
+        src:'/img/hero-img.png',
+        alt:'Hero Image',
+        class:'img-fuild'
+    },
     stores:[
         {
             name:'Google Play',
@@ -145,4 +172,4 @@ const menus = [
     { name:'Contact',link:'#contact'},
 ]
 
-export {hero,logo, menus, faqs, features, pricing_plans, contact}
+export {hero,logo, menus, faqs, features, details, pricing_plans, contact}

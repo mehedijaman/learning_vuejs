@@ -11,9 +11,7 @@ import Footer from './components/Footer.vue'
     <Header/>
     <Hero/>
     <Main/>
-    <Footer/>
-
-  
+    <Footer/>  
 </template>
 
 <style scoped>
